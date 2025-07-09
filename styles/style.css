@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  /* font-family: "Merriweather", serif; */
   font-family: "Inter", sans-serif;
 }
 ol,
@@ -28,8 +28,8 @@ body {
 
 /* Header section styles start from here */
 #banner {
-  background: 
-    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url(../images/hero-bg.png);
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/hero-bg.png);
   padding: 175px 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,4 +51,27 @@ body {
   font-weight: 900;
   line-height: 95px;
   font-family: "Merriweather", serif;
+}
+
+/* Discount section styles start from here */
+#discount {
+  text-align: center;
+  margin: 120px auto;
+}
+#discount h3 {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+}
+#discount h5 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 48px 0 16px 0;
+}
+#discount h4 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
 }
