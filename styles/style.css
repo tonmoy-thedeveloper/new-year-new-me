@@ -1,4 +1,4 @@
-/* "Merriwether" and "Inter" font import from fonts-google.com */
+/* "Merriweather" and "Inter" font import from fonts-google.com */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
 
 * {
@@ -74,4 +74,40 @@ body {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 48px;
+}
+
+/* Party banner section styles start from here */
+#party-banner {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/party-banner.png);
+  display: flex;
+  align-items: center;
+  padding: 60px 120px;
+  border-radius: 16px;
+}
+#party-banner .banner-text h3 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  font-family: "Merriweather", serif;
+}
+#party-banner .banner-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0;
+}
+button {
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #070211;
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+  cursor: pointer;
 }
