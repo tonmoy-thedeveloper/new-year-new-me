@@ -322,3 +322,57 @@ button {
   background: #ff0000;
   border-radius: 0 50px 50px 0;
 }
+
+footer {
+  padding: 120px 0;
+  background: #070211;
+  color: #fff;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.footer-top h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-top ul li a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer-top li a {
+  display: block;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+footer .footer-center {
+  padding: 48px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer-center ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer-bottom small {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
