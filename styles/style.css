@@ -209,7 +209,7 @@ button {
   line-height: 32px;
   margin: 0 auto;
 }
-.discount-img{
+.discount-img {
   background: url(../images/discount-bg.png);
   background-position: center;
   background-size: cover;
@@ -218,13 +218,50 @@ button {
   margin-top: 490px;
   position: relative;
 }
-.gift{
+.gift {
   position: absolute;
   top: -450px;
   left: 0;
 }
-.discount{
+.discount {
   position: absolute;
   bottom: 300px;
   right: 50px;
+}
+
+/* Portfolio section styles start from here */
+#portfolio {
+  /* background-color: #070211; */
+}
+.section-heading {
+  margin-bottom: 48px;
+}
+.section-heading h4 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.section-heading h3 {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+  text-transform: capitalize;
+}
+.section-heading p {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.portfolio-img-container .port-img{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.port-img:last-child{
+  margin-top: 24px;
 }
