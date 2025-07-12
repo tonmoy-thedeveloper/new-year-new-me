@@ -257,11 +257,68 @@ button {
   font-weight: 400;
   line-height: 32px;
 }
-.portfolio-img-container .port-img{
+.portfolio-img-container .port-img {
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
-.port-img:last-child{
+.port-img:last-child {
   margin-top: 24px;
+}
+
+/* Newsletter section styles start from here */
+#newsletter {
+  padding: 80px 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  margin: 120px auto;
+}
+.newsletter-con h3 {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 40px 0 22px;
+  text-transform: capitalize;
+}
+.newsletter-con p {
+  color: rgba(7, 2, 17, 0.6);
+  margin: 0 auto 48px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+}
+.newsletter-con form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 648px;
+  margin: 0 auto;
+}
+.newsletter-con form .email {
+  padding: 30px 25px;
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  border: none;
+  width: 100%;
+}
+.newsletter-con form input::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  font-family: "Inter", serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.newsletter-con form .btn {
+  padding: 24px 56px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+  background: #ff0000;
+  border-radius: 0 50px 50px 0;
 }
