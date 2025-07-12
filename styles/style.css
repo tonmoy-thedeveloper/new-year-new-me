@@ -174,7 +174,57 @@ button {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 400;
-  line-height: 32px; 
+  line-height: 32px;
   margin: 16px 0 22px;
   width: 276px;
+}
+
+/* Discount section HTML start from here */
+#discount h4 {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.discount-heading h3 {
+  color: #f00;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.discount-heading h3 span {
+  font-family: "Merriweather", serif;
+  color: #070211;
+}
+.discount-heading p {
+  width: 1068px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0 auto;
+}
+.discount-img{
+  background: url(../images/discount-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 230px;
+  margin-top: 490px;
+  position: relative;
+}
+.gift{
+  position: absolute;
+  top: -450px;
+  left: 0;
+}
+.discount{
+  position: absolute;
+  bottom: 300px;
+  right: 50px;
 }
